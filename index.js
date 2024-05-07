@@ -24,6 +24,7 @@ function randomColour() {
 }
 function randomBackgroundColour() {
     c1 = randomColour()
+    t = 1
 }
 
 class colour {
@@ -44,7 +45,6 @@ fps = 50,
 transitionSpeed = 0.25 / fps
 
 function transition() {
-    console.log(t)
     if (t >= 1) {
         c0 = c1
         c1 = randomColour()
